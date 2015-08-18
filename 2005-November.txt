@@ -1,0 +1,37 @@
+From ikysil at gmail.com  Tue Nov  8 22:54:38 2005
+From: ikysil at gmail.com (Illya Kysil)
+Date: Tue, 08 Nov 2005 23:54:38 +0200
+Subject: [nblayoutpack-announce] [ANN] TableLayout and FormLayout supporting modules for NetBeans
+ 5.0 beta updated
+Message-ID: <43711E9E.3070003@gmail.com>
+
+Hello all,
+
+I'm proud to announce an immediate availablity of supporting modules for
+TableLayout and FormLayout layout managers.
+NetBeans 3.6, 4.0, 4.1, and 5.0 beta (updated!) are supported.
+
+Modules available for download from
+https://developer.berlios.de/projects/nblayoutpack/
+
+Changes:
+- Fixed [ Bug #5568 ] Exception when changing to TableLayout
+https://developer.berlios.de/bugs/?func=detailbug&bug_id=5568&group_id=2759
+
+-- 
+Illya Kysil, team lead/senior software developer
+Java/C#/Delphi/C/C++/Forth/Assembler
+-------------------------------------------------------------------------
+Shakespeare / King Henry IV
+GLENDOWER  I can call spirits from the vasty deep.
+HOTSPUR    Why, so can I, or so can any man;
+            But will they come when you do call for them?
+
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: smime.p7s
+Type: application/x-pkcs7-signature
+Size: 3389 bytes
+Desc: S/MIME Cryptographic Signature
+URL: <https://lists.berlios.de/pipermail/nblayoutpack-announce/attachments/20051108/55193d60/attachment.bin>
+

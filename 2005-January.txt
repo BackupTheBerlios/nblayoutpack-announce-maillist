@@ -1,0 +1,71 @@
+From ikysil at ua.fm  Sun Jan  9 01:16:41 2005
+From: ikysil at ua.fm (Illya Kysil)
+Date: Sun, 09 Jan 2005 02:16:41 +0200
+Subject: [nblayoutpack-announce] [ANN] TableLayout and FormLayout supporting modules for NetBeans
+ 3.6 and NetBeans 4.0 are available
+Message-ID: <41E077E9.8000007@ua.fm>
+
+Hello all,
+
+I'm proud to announce immediate availablity of supporting modules for 
+TableLayout and FormLayout layout managers.
+NetBeans 3.6 and NetBeans 4.0 are supported.
+
+Modules available for download from
+https://developer.berlios.de/projects/nblayoutpack/
+
+-- 
+Illya Kysil, software developer
+Java/Delphi/C/C++/C#/Forth/Assembler
+-------------------------------------------------------------------------
+No trees were harmed in the generation of this e-mail. A significant
+number of electrons were, however, severely inconvenienced.
+
+
+-- 
+No virus found in this outgoing message.
+Checked by AVG Anti-Virus.
+Version: 7.0.300 / Virus Database: 265.6.9 - Release Date: 06.01.2005
+
+
+
+From ikysil at ua.fm  Sun Jan 23 18:59:39 2005
+From: ikysil at ua.fm (Illya Kysil)
+Date: Sun, 23 Jan 2005 19:59:39 +0200
+Subject: [nblayoutpack-announce] [ANN] TableLayout and FormLayout supporting modules for NetBeans
+ 3.6 and NetBeans 4.0 updated
+Message-ID: <41F3E60B.8030905@ua.fm>
+
+Hello all,
+
+I'm proud to announce immediate availablity of supporting modules for
+TableLayout and FormLayout layout managers.
+NetBeans 3.6 and NetBeans 4.0 are supported.
+
+Modules available for download from
+https://developer.berlios.de/projects/nblayoutpack/
+
+TableLayout supporting module changes:
+- Fixed bug with JDK 1.5 NullPointerException on layout customizer 
+activation.
+
+FormLayout supporting module changes:
+- New groups custom editor;
+- Move up/Move down actions in column/row editor.
+
+-- 
+Illya Kysil, software developer
+Java/Delphi/C/C++/C#/Forth/Assembler
+-------------------------------------------------------------------------
+No trees were harmed in the generation of this e-mail. A significant
+number of electrons were, however, severely inconvenienced.
+
+
+
+-- 
+No virus found in this outgoing message.
+Checked by AVG Anti-Virus.
+Version: 7.0.300 / Virus Database: 265.7.2 - Release Date: 21.01.2005
+
+
+

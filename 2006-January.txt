@@ -1,0 +1,70 @@
+From ikysil at gmail.com  Tue Jan  3 22:17:09 2006
+From: ikysil at gmail.com (Illya Kysil)
+Date: Tue, 03 Jan 2006 23:17:09 +0200
+Subject: [nblayoutpack-announce] [ANN] RiverLayout supporting module for NetBeans 5.0 (beta) is available
+Message-ID: <43BAE9D5.9090401@gmail.com>
+
+Hello all,
+
+I'm proud to announce an immediate availablity of supporting module for
+RiverLayout layout manager - see http://www.datadosen.se/riverlayout/
+for more information on RiverLayout.
+NetBeans 5.0 (beta) is supported.
+
+Module is available for download from
+https://developer.berlios.de/projects/nblayoutpack/
+
+-- 
+Illya Kysil
+-------------------------------------------------------------------------
+Shakespeare / King Henry IV
+GLENDOWER  I can call spirits from the vasty deep.
+HOTSPUR    Why, so can I, or so can any man;
+            But will they come when you do call for them?
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: smime.p7s
+Type: application/x-pkcs7-signature
+Size: 3389 bytes
+Desc: S/MIME Cryptographic Signature
+URL: <https://lists.berlios.de/pipermail/nblayoutpack-announce/attachments/20060103/ea2c2313/attachment.bin>
+
+From ikysil at gmail.com  Sun Jan 29 15:27:04 2006
+From: ikysil at gmail.com (Illya Kysil)
+Date: Sun, 29 Jan 2006 16:27:04 +0200
+Subject: [nblayoutpack-announce] [ANN] NetBeans Layout Pack in NetBeans 5.0 - sad news
+Message-ID: <43DCD0B8.9050205@gmail.com>
+
+Hi,
+
+It's sad but it's true - NetBeans Layout Pack's modules won't work in 
+NetBeans 5.0 as it will be released. So, stick with NetBeans 5.0 beta 2 
+or whatever build you use for form editing until further announcement.
+
+I have filed a bug (see 
+http://www.netbeans.org/issues/show_bug.cgi?id=71836) which had been 
+fixed in development trunk. I've got the following comment from Tomas 
+Pavek (he fixed the bug, BTW) also:
+Now - the fix is easy in NetBeans, but there is no workaround on your 
+side</span>. It's a shame this is broken in 5.0, but it is far too late 
+to get the fix into the release. I can only think about creating a patch 
+for you, possibly making it available later as hotfix on AU.
+
+Let's ask for a hotfix for NetBeans 5.0!
+
+-- 
+Illya Kysil
+-----------------------------------------------------------------------------
+Shakespeare / King Henry IV
+GLENDOWER  I can call spirits from the vasty deep.
+HOTSPUR    Why, so can I, or so can any man;
+            But will they come when you do call for them?
+
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: smime.p7s
+Type: application/x-pkcs7-signature
+Size: 3493 bytes
+Desc: S/MIME Cryptographic Signature
+URL: <https://lists.berlios.de/pipermail/nblayoutpack-announce/attachments/20060129/d0bb68c2/attachment.bin>
+

@@ -1,0 +1,78 @@
+From ikysil at ua.fm  Sat Aug  6 00:27:02 2005
+From: ikysil at ua.fm (Illya Kysil)
+Date: Sat, 06 Aug 2005 01:27:02 +0300
+Subject: [nblayoutpack-announce] [ANN] TableLayout and FormLayout supporting modules for NetBeans
+ updated
+Message-ID: <42F3E7B6.20907@ua.fm>
+
+Hello all,
+
+I'm proud to announce an immediate availablity of supporting modules for
+TableLayout and FormLayout layout managers.
+NetBeans 3.6, 4.0, and 4.1 are supported.
+
+Modules available for download from
+https://developer.berlios.de/projects/nblayoutpack/
+
+Changes:
+- bug fixes
+- new icons for Palette
+- TableLayout library updated to version 3.4
+- JavaDoc documentation for TableLayout added
+
+-- 
+Illya Kysil, team lead/senior software developer
+Java/C#/Delphi/C/C++/Forth/Assembler
+-------------------------------------------------------------------------
+Shakespeare / King Henry IV
+GLENDOWER  I can call spirits from the vasty deep.
+HOTSPUR    Why, so can I, or so can any man;
+               But will they come when you do call for them?
+
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: smime.p7s
+Type: application/x-pkcs7-signature
+Size: 3373 bytes
+Desc: S/MIME Cryptographic Signature
+URL: <https://lists.berlios.de/pipermail/nblayoutpack-announce/attachments/20050806/3ef05c23/attachment.bin>
+
+From ikysil at gmail.com  Sat Aug  6 00:27:36 2005
+From: ikysil at gmail.com (Illya Kysil)
+Date: Sat, 06 Aug 2005 01:27:36 +0300
+Subject: [nblayoutpack-announce] [ANN] TableLayout and FormLayout supporting modules for NetBeans
+ updated
+Message-ID: <42F3E7D8.7080502@gmail.com>
+
+Hello all,
+
+I'm proud to announce an immediate availablity of supporting modules for
+TableLayout and FormLayout layout managers.
+NetBeans 3.6, 4.0, and 4.1 are supported.
+
+Modules available for download from
+https://developer.berlios.de/projects/nblayoutpack/
+
+Changes:
+- bug fixes
+- new icons for Palette
+- TableLayout library updated to version 3.4
+- JavaDoc documentation for TableLayout added
+
+-- 
+Illya Kysil, team lead/senior software developer
+Java/C#/Delphi/C/C++/Forth/Assembler
+-------------------------------------------------------------------------
+Shakespeare / King Henry IV
+GLENDOWER  I can call spirits from the vasty deep.
+HOTSPUR    Why, so can I, or so can any man;
+            But will they come when you do call for them?
+
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: smime.p7s
+Type: application/x-pkcs7-signature
+Size: 3389 bytes
+Desc: S/MIME Cryptographic Signature
+URL: <https://lists.berlios.de/pipermail/nblayoutpack-announce/attachments/20050806/5c1122b0/attachment.bin>
+

@@ -1,0 +1,52 @@
+From ikysil at ua.fm  Fri Dec 24 23:03:34 2004
+From: ikysil at ua.fm (Illya Kysil)
+Date: Sat, 25 Dec 2004 00:03:34 +0200
+Subject: [nblayoutpack-announce] [ANN] TableLayout supporting module for NetBeans 3.6 is available
+Message-ID: <41CC9236.8010402@ua.fm>
+
+TableLayout supporting module for NetBeans 3.6 is available from
+https://developer.berlios.de/projects/nblayoutpack/
+
+-- 
+Illya Kysil, software developer
+Java/Delphi/C/C++/C#/Forth/Assembler
+-------------------------------------------------------------------------
+No trees were harmed in the generation of this e-mail. A significant
+number of electrons were, however, severely inconvenienced.
+
+
+-- 
+No virus found in this outgoing message.
+Checked by AVG Anti-Virus.
+Version: 7.0.298 / Virus Database: 265.6.4 - Release Date: 22.12.2004
+
+
+
+From ikysil at ua.fm  Sat Dec 25 20:32:19 2004
+From: ikysil at ua.fm (Illya Kysil)
+Date: Sat, 25 Dec 2004 21:32:19 +0200
+Subject: [nblayoutpack-announce] [ANN] TableLayout supporting modules for NetBeans 3.6 and NetBeans
+ 4.0 are available
+Message-ID: <41CDC043.1020206@ua.fm>
+
+TableLayout supporting modules for NetBeans 3.6 and NetBeans 4.0 are 
+available from https://developer.berlios.de/projects/nblayoutpack/
+
+See issue #52807 for NetBeans 4.0 troubleshooting.
+http://www.netbeans.org/issues/show_bug.cgi?id=52807
+
+-- 
+Illya Kysil, software developer
+Java/Delphi/C/C++/C#/Forth/Assembler
+-------------------------------------------------------------------------
+No trees were harmed in the generation of this e-mail. A significant
+number of electrons were, however, severely inconvenienced.
+
+
+-- 
+No virus found in this outgoing message.
+Checked by AVG Anti-Virus.
+Version: 7.0.298 / Virus Database: 265.6.4 - Release Date: 22.12.2004
+
+
+

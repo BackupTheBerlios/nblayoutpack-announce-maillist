@@ -1,0 +1,145 @@
+From ikysil at gmail.com  Tue May 24 20:28:46 2005
+From: ikysil at gmail.com (Illya Kysil)
+Date: Tue, 24 May 2005 21:28:46 +0300
+Subject: [nblayoutpack-announce] On the future of NetBeans Layout Pack - NetBeans 4.1and beyond
+Message-ID: <4293725E.7050505@gmail.com>
+
+Hello!
+
+It have been a long time since I've posted an announcement regarding 
+NetBeans Layout Pack - more than 4 months. But I'm still here and I'm 
+working on NetBeans 4.1 support right now. There are some issues because 
+of changes introduced by NB's team so it will take some time. Please, be 
+patient.
+
+I'm going to publish source code when NB 4.1 support will be finished.
+
+-- 
+Illya Kysil, team lead/senior software developer
+Java/C#/Delphi/C/C++/Forth/Assembler
+-------------------------------------------------------------------------
+Shakespeare / King Henry IV
+GLENDOWER  I can call spirits from the vasty deep.
+HOTSPUR    Why, so can I, or so can any man;
+            But will they come when you do call for them?
+
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: smime.p7s
+Type: application/x-pkcs7-signature
+Size: 3389 bytes
+Desc: S/MIME Cryptographic Signature
+URL: <https://lists.berlios.de/pipermail/nblayoutpack-announce/attachments/20050524/8063b252/attachment.bin>
+
+From ikysil at gmail.com  Fri May 27 00:18:18 2005
+From: ikysil at gmail.com (Illya Kysil)
+Date: Fri, 27 May 2005 01:18:18 +0300
+Subject: [nblayoutpack-announce] [ANN] TableLayout and FormLayout supporting modules for NetBeans
+ updated
+Message-ID: <42964B2A.8070105@gmail.com>
+
+Hello all,
+
+I'm proud to announce immediate availablity of supporting modules for
+TableLayout and FormLayout layout managers.
+NetBeans 3.6, 4.0, and 4.1 are supported.
+
+Modules available for download from
+https://developer.berlios.de/projects/nblayoutpack/
+
+This release introduces incompatible changes - previous releases won't
+be able to load forms created with this release. Those changes were
+required to match recent changes in NetBeans 4.1 codebase regarding
+class loaders separation.
+
+In case of problems with loading of forms created with previous releases
+you can update .form files by hand as described below.
+
+------------------------------------------------------------------------
+Manual form updating for TableLayout.
+------------------------------------------------------------------------
+Open form in NetBeans BEFORE module update. Note the values of columns
+and rows properties of TableLayout. Close form.
+Open .form file in text editor. For each layout manager instance search
+for following line:
+<Value type="[D"
+editor="de.berlios.nblayoutpack.tablelayout.TableLayoutSupport$DoubleArrayEditor">
+
+Replace that and next line (starting with <SerializedValue ...>)
+- for columns property:
+<Value type="[D"
+editor="de.berlios.nblayoutpack.tablelayout.TableLayoutSupport$ColumnsEditor">
+    <Columns value="!!!string value of Columns property!!!"/>
+
+- for rows property:
+<Value type="[D"
+editor="de.berlios.nblayoutpack.tablelayout.TableLayoutSupport$RowsEditor">
+    <Rows value="!!!string value of Rows property!!!"/>
+You can decide which lines to insert by inspecting CodeMethod name value
+   located 5 lines above the '<Value type="[D"' line.
+
+------------------------------------------------------------------------
+Manual form updating for FormLayout.
+------------------------------------------------------------------------
+Open form in NetBeans BEFORE module update. Note the values of column
+groups and row groups properties of FormLayout. Note the values of
+horizontal alignment and vertical alignment layout properties for each
+component. Close form.
+Open .form file in text editor. For each layout manager instance search
+for following lines:
+
+a)
+<Value type="[[I"
+editor="de.berlios.nblayoutpack.formlayout.editors.ColumnGroupsEditor">
+
+Replace next line (starting with <SerializedValue ...>) with following:
+<Groups value="!!!string value of Column groups property!!!"/>
+
+b)
+<Value type="[[I"
+editor="de.berlios.nblayoutpack.formlayout.editors.RowGroupsEditor">
+
+Replace next line (starting with <SerializedValue ...>) with following:
+<Groups value="!!!string value of Row groups property!!!"/>
+
+For each component search for following lines:
+
+a)
+<Value type="com.jgoodies.forms.layout.CellConstraints$Alignment"
+editor="de.berlios.nblayoutpack.formlayout.editors.HAlignEditor">
+
+Replace next line (starting with <SerializedValue ...>) with following:
+<HAlign value="!!!string value of Horizontal alignment property
+                 (in lowercase)!!!"/>
+
+b)
+<Value type="com.jgoodies.forms.layout.CellConstraints$Alignment"
+editor="de.berlios.nblayoutpack.formlayout.editors.VAlignEditor">
+
+Replace next line (starting with <SerializedValue ...>) with following:
+<VAlign value="!!!string value of Vertical alignment property
+                 (in lowercase)!!!"/>
+
+If you think it's too cumbersome to note alignment properties for each
+component then you can set all values to "default" and then edit them
+visually in form editor.
+
+PS: I recommend to backup .form files before updating.
+
+-- 
+Illya Kysil, team lead/senior software developer
+Java/C#/Delphi/C/C++/Forth/Assembler
+-------------------------------------------------------------------------
+Shakespeare / King Henry IV
+GLENDOWER  I can call spirits from the vasty deep.
+HOTSPUR    Why, so can I, or so can any man;
+              But will they come when you do call for them?
+
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: smime.p7s
+Type: application/x-pkcs7-signature
+Size: 3389 bytes
+Desc: S/MIME Cryptographic Signature
+URL: <https://lists.berlios.de/pipermail/nblayoutpack-announce/attachments/20050527/900be93b/attachment.bin>
+
